@@ -1,6 +1,6 @@
-const Content = ({ title, imageUrl, description }) => {
+const Content = ({ key, title, imageUrl, description }) => {
   return (
-    <div className="container-fluid my-5 bg-light bg-image">
+    <div className="container-fluid my-5 bg-light bg-image" key={key}>
       <div className="container-lg">
         <div className="row">
           <div className="col-lg-6 my-5">

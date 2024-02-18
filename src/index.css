@@ -41,7 +41,7 @@ body {
   transform: translate(0,0);
 }
 
-.navbar-scrolled .nav-link.active{
+.navbar-scrolled .nav-link.on{
   color: #74351c;
 }
 
@@ -60,10 +60,10 @@ body {
   max-width: 300px;
 }
 
-.nav-link.active , .nav-link:hover{
+.nav-link.on , .nav-link:hover{
   border-bottom: 3px solid #74351c;
-  font-weight: 600;
   color: #74351c;
+  font-weight: 600;
 }
 
 .none {
@@ -168,7 +168,7 @@ footer ul {
   .navbar {
       background-color: #000000;
   }
-  .navbar .nav-link.active,
+  .navbar .nav-link.on,
   .navbar a {
       color: #fff;
   }

@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Pesona Espresso",
+      "imageUrl": "images/cup-of-coffe.jpeg",
+      "description": "Seperti seni dalam setiap shot espresso."
+    },
+    {
+      "title": "Soft Latte",
+      "imageUrl": "images/latte.jpg",
+      "description": "Latte, kelembutan dalam setiap tegukan."
+    },
+    {
+      "title": "Cita Rasa Donat",
+      "imageUrl": "images/donuts.jpg",
+      "description": "Warna dan rasa berpadu dalam harmoni."
+    }
+  ]

@@ -1,6 +1,7 @@
 import { useState } from "react";
+import NavList from "./elements/NavList";
 
-const Navbar = () => {
+const Navbar = ({ active }) => {
   const [navStyle, setNavStyle] = useState("");
 
   window.addEventListener("scroll", () => {
@@ -43,26 +44,10 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mt-2 fs-md-5">
-              <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Beranda
-                </a>
-              </li>
-              <li className="nav-item mx-3">
-                <a className="nav-link" href="about.html">
-                  Tentang
-                </a>
-              </li>
-              <li className="nav-item mx-3">
-                <a className="nav-link" href="menu.html">
-                  Menu
-                </a>
-              </li>
-              <li className="nav-item mx-3">
-                <a className="nav-link" href="contact.html">
-                  Hubungi Kami
-                </a>
-              </li>
+              <NavList link="/" text="Beranda" active={active} />
+              <NavList link="about.html" text="Tentang Kami" active={active} />
+              <NavList link="menu.html" text="Menu" active={active} />
+              <NavList link="contact.html" text="Kontak Kami" active={active} />
               <li className="nav-item mx-3">
                 <a
                   className="btn"
