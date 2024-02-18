@@ -62,7 +62,7 @@ body {
 
 .nav-link.on , .nav-link:hover{
   border-bottom: 3px solid #74351c;
-  color: #74351c;
+   color: #74351c !important;
   font-weight: 600;
 }
 

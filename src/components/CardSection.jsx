@@ -22,7 +22,12 @@ const CardSection = ({ data, title }) => {
         ))}
       </div>
       <div className="d-flex justify-content-lg-end justify-content-center">
-        <a href="menu.html" className="btn btn-dark mt-3 fs-5 button_menu">
+        <a
+          href="menu.html"
+          className="btn btn-dark mt-3 fs-5 button_menu"
+          data-aos="flip-left"
+          data-aos-duration="2000"
+        >
           Lihat Menu <i className="bi bi-arrow-right"></i>
         </a>
       </div>
