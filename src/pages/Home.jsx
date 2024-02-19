@@ -16,7 +16,6 @@ const Home = () => {
     getCarouselItems((data) => setCarouselItems(data));
   }, []);
 
-  console.log(carouselItems);
   return (
     <>
       <Navbar active="Beranda" />
@@ -30,6 +29,7 @@ const Home = () => {
               di setiap gerakan tangan. Aromanya menggoda, sepertinya kafein dan
               kreativitas menyatu dalam setiap tegukan yang diciptakannya."
       />
+
       <FooterContent />
       <Footer />
     </>
