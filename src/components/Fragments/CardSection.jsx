@@ -1,6 +1,6 @@
-import Animation from "../../aos";
+import Animation from "../../../aos";
 import { useEffect } from "react";
-import Card from "./elements/Card";
+import Card from "../Elements/Card";
 
 const CardSection = ({ data, title }) => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const CardSection = ({ data, title }) => {
       <div className="row lg mt-lg-3 mt-1 justify-content-around card_list_container">
         {data.map((item, i) => (
           <Card
-            key={item.id}
+            key={i}
             title={item.title}
             imageUrl={item.imageUrl}
             description={item.description}
@@ -25,7 +25,7 @@ const CardSection = ({ data, title }) => {
         <a
           href="menu.html"
           className="btn btn-dark mt-3 fs-5 button_menu"
-          data-aos="flip-left"
+          data-aos="fade-left"
           data-aos-duration="2000"
         >
           Lihat Menu <i className="bi bi-arrow-right"></i>

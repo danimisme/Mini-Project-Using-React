@@ -1,33 +1,29 @@
-import CardSection from "../components/CardSection";
-import Carousel from "../components/Carousel";
-import Navbar from "../components/Navbar";
-import Content from "../components/Content";
-import Footer from "../components/Footer";
-import FooterContent from "../components/FooterContent";
-import axios from "axios";
+import CardSection from "../components/Fragments/CardSection";
+import Carousel from "../components/Fragments/Carousel";
+import Navbar from "../components/Fragments/Navbar";
+import Content from "../components/Fragments/Content";
+import Footer from "../components/Fragments/Footer";
+import FooterContent from "../components/Fragments/FooterContent";
+import { getSpecialMenu, getCarouselItems } from "../services/getData";
 import { useEffect, useState } from "react";
 
 const Home = () => {
   const [spesialMenu, setSpesialMenu] = useState([]);
-  const getSpecialMenu = async () => {
-    try {
-      const response = await axios.get("./src/data/specialMenu.JSON");
-      setSpesialMenu(response.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  const [carouselItems, setCarouselItems] = useState([]);
 
   useEffect(() => {
-    getSpecialMenu();
+    getSpecialMenu((data) => setSpesialMenu(data));
+    getCarouselItems((data) => setCarouselItems(data));
   }, []);
 
+  console.log(carouselItems);
   return (
     <>
       <Navbar active="Beranda" />
-      <Carousel />
+      <Carousel carouselItems={carouselItems} />
       <CardSection title="Spesial untuk anda" data={spesialMenu} />
       <Content
+        variant="content-right"
         title="Rasa Kopi yang Memukau"
         imageUrl="images/barista-making-coffe-diminum-crop.jpeg"
         description="Dengan keahlian yang memukau, sang barista melukis karya seni kopi

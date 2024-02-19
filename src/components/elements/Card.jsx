@@ -1,6 +1,6 @@
-const Card = ({ key, title, imageUrl, description, duration }) => {
+const Card = ({ title, imageUrl, description, duration }) => {
   return (
-    <div className="col-lg-4 col-sm-8 col-md-6 col-8 my-3" key={key}>
+    <div className="col-lg-4 col-sm-8 col-md-6 col-8 my-3">
       {/* <!-- card --> */}
       <div
         className="card align-items-center border-0 mx-auto card_list"

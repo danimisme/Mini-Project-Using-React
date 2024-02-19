@@ -1,6 +1,5 @@
 import { useState } from "react";
-import NavList from "./elements/NavList";
-
+import NavList from "../Elements/NavList";
 const Navbar = ({ active }) => {
   const [navStyle, setNavStyle] = useState("");
 
