@@ -6,6 +6,7 @@ import Footer from "../components/Fragments/Footer";
 import FooterContent from "../components/Fragments/FooterContent";
 import { getSpecialMenu, getCarouselItems } from "../services/getData";
 import { useEffect, useState } from "react";
+import Modals from "../components/Elements/Modals";
 
 const Home = () => {
   const [spesialMenu, setSpesialMenu] = useState([]);
@@ -30,6 +31,7 @@ const Home = () => {
               di setiap gerakan tangan. Aromanya menggoda, sepertinya kafein dan
               kreativitas menyatu dalam setiap tegukan yang diciptakannya."
       />
+      <Modals />
       <FooterContent />
       <Footer />
     </>
