@@ -45,8 +45,8 @@ const Navbar = ({ active }) => {
             <ul className="navbar-nav mt-2 fs-md-5">
               <NavList link="/" text="Beranda" active={active} />
               <NavList link="/about" text="Tentang Kami" active={active} />
-              <NavList link="/" text="Menu" active={active} />
-              <NavList link="/" text="Kontak Kami" active={active} />
+              <NavList link="/menu" text="Menu" active={active} />
+              <NavList link="/contact" text="Kontak Kami" active={active} />
               <li className="nav-item mx-3">
                 <a
                   className="btn"

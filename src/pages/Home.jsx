@@ -12,8 +12,9 @@ const Home = () => {
   const [carouselItems, setCarouselItems] = useState([]);
 
   useEffect(() => {
-    getSpecialMenu((data) => setSpesialMenu(data));
+    window.scrollTo(0, 0);
     getCarouselItems((data) => setCarouselItems(data));
+    getSpecialMenu((data) => setSpesialMenu(data));
   }, []);
 
   return (

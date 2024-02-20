@@ -1,3 +1,8 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Animation from "../../../aos";
+import { useEffect } from "react";
+
 const Content = ({
   variant,
   title,
@@ -6,6 +11,10 @@ const Content = ({
   secondDescription = "",
   background = true,
 }) => {
+  useEffect(() => {
+    Animation();
+  }, []);
+
   return (
     <div className={`container-fluid my-5 ${background ? "bg-image" : ""}`}>
       <div className="container-lg ">
