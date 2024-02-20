@@ -9,7 +9,7 @@ const CardSection = ({ data, title }) => {
 
   return (
     <div className="container-lg mt-lg-5 mb-lg-5 my-3 text-center text-lg-start">
-      <h1 className="mb-3 fw-semibold text-brown">{title}</h1>
+      <h1 className="mb-3 fw-semibold text-brown mb-3">{title}</h1>
       <div className="row lg mt-lg-3 mt-1 justify-content-around card_list_container">
         {data.map((item, i) => (
           <Card

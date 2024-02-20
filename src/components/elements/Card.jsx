@@ -1,7 +1,6 @@
 const Card = ({ title, imageUrl, description, duration }) => {
   return (
     <div className="col-lg-4 col-sm-8 col-md-6 col-8 my-3">
-      {/* <!-- card --> */}
       <div
         className="card align-items-center border-0 mx-auto card_list"
         data-aos="fade-up"
@@ -17,13 +16,12 @@ const Card = ({ title, imageUrl, description, duration }) => {
           </div>
           <div className="col-lg-8 col-md-10">
             <div className="card-body">
-              <h5 className="card-title">{title}</h5>
-              <p className="card-text">{description}</p>
+              <h5 className="card-title fw-bold">{title}</h5>
+              <p className="card-text ">&quot; {description} &quot;</p>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- end of card --> */}
     </div>
   );
 };
