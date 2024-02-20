@@ -1,0 +1,97 @@
+[
+    {
+      "imageUrl": "assets/menu-images/espresso.jpg",
+      "title": "Single Shot Espresso",
+      "price": "Rp 25.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/espresso1.jpg",
+      "title": "Double Shot Espresso",
+      "price": "Rp 30.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/cortado.jpg",
+      "title": "Cortado",
+      "price": "Rp 30.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/americano.jpg",
+      "title": "Americano",
+      "price": "Rp 27.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/macchiato.jpg",
+      "title": "Macchiato",
+      "price": "Rp 33.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/conpana.jpg",
+      "title": "Espresso Con Panna",
+      "price": "Rp 34.000",
+      "category": "espresso"
+    },
+    {
+      "imageUrl": "assets/menu-images/fredo.jpg",
+      "title": "Espresso Freddo",
+      "price": "Rp 34.000",
+      "category": "espresso"
+    }, {
+        "imageUrl": "assets/menu-images/latte.jpg",
+        "title": "Latte",
+        "price": "Rp 31.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/vanila-latte.jpg",
+        "title": "Vanila Latte",
+        "price": "Rp 33.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/caramel.jpg",
+        "title": "Caramel Latte",
+        "price": "Rp 34.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/hazelnut-latte.jpg",
+        "title": "Hazelnut Latte",
+        "price": "Rp 36.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/mocha.jpg",
+        "title": "Mocha Latte",
+        "price": "Rp 33.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/chocolate.jpg",
+        "title": "Chocolate Latte",
+        "price": "Rp 36.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/macha.jpg",
+        "title": "Matcha Latte",
+        "price": "Rp 36.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/iced-latte.jpg",
+        "title": "Iced Latte",
+        "price": "Rp 35.000",
+        "category": "latte"
+      },
+      {
+        "imageUrl": "assets/menu-images/Beetroot.jpg",
+        "title": "Beetroot Soy Latte",
+        "price": "Rp 33.000",
+        "category": "latte"
+      }
+  ]
