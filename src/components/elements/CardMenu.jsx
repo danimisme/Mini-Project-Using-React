@@ -1,6 +1,10 @@
-const CardMenu = ({ title, imageUrl, price }) => {
+const CardMenu = ({ title, imageUrl, price, duration }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+    <div
+      className="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto"
+      data-aos="fade-up"
+      data-aos-delay={duration}
+    >
       <div
         className="card mb-3 border-0 menu_item_1"
         style={{ maxWidth: "600px" }}

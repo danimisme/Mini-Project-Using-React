@@ -4,6 +4,7 @@ import MenuContainer from "../components/Fragments/MenuContainer";
 import Navbar from "../components/Fragments/Navbar";
 import { getOrderMethod } from "../services/getData";
 import { useEffect, useState } from "react";
+import Footer from "../components/Fragments/Footer";
 const Menu = () => {
   const [orderMethod, setOrderMethod] = useState([]);
 
@@ -22,6 +23,7 @@ const Menu = () => {
       />
       <CardSection title="Yuk Order !" data={orderMethod} />
       <MenuContainer />
+      <Footer />
     </>
   );
 };
