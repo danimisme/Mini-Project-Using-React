@@ -1,97 +1,146 @@
 [
     {
-      "imageUrl": "assets/menu-images/espresso.jpg",
+      "imageUrl": "menu-images/espresso.jpg",
       "title": "Single Shot Espresso",
-      "price": "Rp 25.000",
+      "price": 25000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/espresso1.jpg",
+      "imageUrl": "menu-images/espresso1.jpg",
       "title": "Double Shot Espresso",
-      "price": "Rp 30.000",
+      "price": 30000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/cortado.jpg",
+      "imageUrl": "menu-images/cortado.jpg",
       "title": "Cortado",
-      "price": "Rp 30.000",
+      "price": 30000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/americano.jpg",
+      "imageUrl": "menu-images/americano.jpg",
       "title": "Americano",
-      "price": "Rp 27.000",
+      "price": 27000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/macchiato.jpg",
+      "imageUrl": "menu-images/macchiato.jpg",
       "title": "Macchiato",
-      "price": "Rp 33.000",
+      "price": 33000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/conpana.jpg",
+      "imageUrl": "menu-images/conpana.jpg",
       "title": "Espresso Con Panna",
-      "price": "Rp 34.000",
+      "price": 34000,
       "category": "espresso"
     },
     {
-      "imageUrl": "assets/menu-images/fredo.jpg",
+      "imageUrl": "menu-images/fredo.jpg",
       "title": "Espresso Freddo",
-      "price": "Rp 34.000",
+      "price": 34000,
       "category": "espresso"
-    }, {
-        "imageUrl": "assets/menu-images/latte.jpg",
+    },
+    {
+        "imageUrl": "menu-images/latte.jpg",
         "title": "Latte",
-        "price": "Rp 31.000",
+        "price": 31000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/vanila-latte.jpg",
+        "imageUrl": "menu-images/vanila-latte.jpg",
         "title": "Vanila Latte",
-        "price": "Rp 33.000",
+        "price": 33000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/caramel.jpg",
+        "imageUrl": "menu-images/caramel.jpg",
         "title": "Caramel Latte",
-        "price": "Rp 34.000",
+        "price": 34000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/hazelnut-latte.jpg",
+        "imageUrl": "menu-images/hazelnut-latte.jpg",
         "title": "Hazelnut Latte",
-        "price": "Rp 36.000",
+        "price": 36000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/mocha.jpg",
+        "imageUrl": "menu-images/mocha.jpg",
         "title": "Mocha Latte",
-        "price": "Rp 33.000",
+        "price": 33000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/chocolate.jpg",
+        "imageUrl": "menu-images/chocolate.jpg",
         "title": "Chocolate Latte",
-        "price": "Rp 36.000",
+        "price": 36000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/macha.jpg",
+        "imageUrl": "menu-images/macha.jpg",
         "title": "Matcha Latte",
-        "price": "Rp 36.000",
+        "price": 36000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/iced-latte.jpg",
+        "imageUrl": "menu-images/iced-latte.jpg",
         "title": "Iced Latte",
-        "price": "Rp 35.000",
+        "price": 35000,
         "category": "latte"
       },
       {
-        "imageUrl": "assets/menu-images/Beetroot.jpg",
+        "imageUrl": "menu-images/Beetroot.jpg",
         "title": "Beetroot Soy Latte",
-        "price": "Rp 33.000",
+        "price": 33000,
         "category": "latte"
+      },
+      {
+        "imageUrl": "menu-images/donat-coklat.jpg",
+        "title": "Donat Coklat",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/donat-stawberry.jpg",
+        "title": "Donat Strawberry",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/cheese-donuts.jpg",
+        "title": "Donat Keju",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/purple-donust.jpg",
+        "title": "Purple Donut",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/caramell-donuts.jpg",
+        "title": "Caramel Donut",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/red-donut.jpg",
+        "title": "Red Velvet Donut",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/almond-donut.jpg",
+        "title": "Choco Almond Donut",
+        "price": 15000,
+        "category": "donut"
+      },
+      {
+        "imageUrl": "menu-images/matcha-donut.jpg",
+        "title": "Matcha Donut",
+        "price": 15000,
+        "category": "donut"
       }
-  ]
+]

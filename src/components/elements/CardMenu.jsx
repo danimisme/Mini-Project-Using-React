@@ -1,4 +1,4 @@
-const CardMenu = () => {
+const CardMenu = (title, imageUrl, price) => {
   return (
     <div className="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
       <div
@@ -8,7 +8,7 @@ const CardMenu = () => {
         <div className="row g-0">
           <div className="col-md-6">
             <img
-              src="menu-images/espresso.jpg"
+              src={imageUrl}
               className="img-fluid rounded-start menu-image"
               alt="..."
             />
