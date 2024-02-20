@@ -9,7 +9,7 @@ const Menu = () => {
 
   useEffect(() => {
     getOrderMethod((data) => setOrderMethod(data));
-  });
+  }, []);
 
   return (
     <>

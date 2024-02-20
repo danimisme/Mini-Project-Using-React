@@ -1,4 +1,4 @@
-const CardMenu = (title, imageUrl, price) => {
+const CardMenu = ({ title, imageUrl, price }) => {
   return (
     <div className="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
       <div
@@ -15,8 +15,13 @@ const CardMenu = (title, imageUrl, price) => {
           </div>
           <div className="col-md-6 px-2 py-1">
             <div className="card-body d-flex flex-column justify-content-between h-100">
-              <h5 className="card-title">Single Shot Espresso</h5>
-              <p>Rp 25.000</p>
+              <h5 className="card-title">{title}</h5>
+              <p>
+                {price.toLocaleString("id-ID", {
+                  style: "currency",
+                  currency: "IDR",
+                })}
+              </p>
               <a className="btn btn-outline-dark fw-bold text-brown w-70 fs-6 liveToastBtn">
                 <i className="bi bi-plus-circle"></i> Pesan
               </a>
