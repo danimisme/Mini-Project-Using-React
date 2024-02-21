@@ -21,3 +21,14 @@ export const getCarouselItems = (calllback) => {
       console.log(err);
     });
 };
+
+export const getOrderMethod = (calllback) => {
+  axios
+    .get("./src/data/orderMethod.JSON")
+    .then((res) => {
+      calllback(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};

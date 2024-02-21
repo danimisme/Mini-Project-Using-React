@@ -14,7 +14,7 @@ const CarouselItem = ({ imageUrl, title, caption, index }) => {
           className="lead header_caption fs-3 animate__animated animate__bounceInRight"
           data-aos="fade-left"
         >
-          {caption}
+          &quot; {caption} &quot;
         </p>
       </div>
     </div>

@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-}
+  font-family: 'Quicksand', sans-serif;}
 .navbar {
   background-color: transparent;
   opacity: 0.9;
@@ -55,6 +56,10 @@ body {
   border-bottom: 3px solid transparent;
   transition: ease-in-out 0.3s;
   position: relative;
+}
+
+.header-container {
+  padding-top: 50px;
 }
 
 .card_list {
@@ -114,11 +119,11 @@ footer ul {
 
 
 .header_title ,
-.title_header_1 {
+.title_header {
   animation-delay: 0.35s;
 }
 
-.caption_header_1 {
+.caption_header {
   animation-delay: 0.5s;
 }
 .header_caption {
