@@ -1,6 +1,6 @@
 import "animate.css/animate.css";
 
-const Header = ({ title, imageUrl, caption }) => {
+const Header = ({ title, subTitle, imageUrl, caption }) => {
   return (
     <header>
       <div className="container-fluid my-5 header-container">
@@ -8,7 +8,7 @@ const Header = ({ title, imageUrl, caption }) => {
           <div className="row d-flex align-items-center flex-column-reverse flex-md-row">
             <div className="col-md-6 text-end  ">
               <h1 className="fw-bold title_header animate__animated animate__fadeInLeft">
-                {title}
+                {title} {subTitle && <div>{subTitle}</div>}
               </h1>
               <blockquote className="fs-3 caption_header animate__animated animate__fadeInUp">
                 &quot; {caption} &quot;

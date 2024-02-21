@@ -11,6 +11,7 @@ import Modals from "../components/Elements/Modals";
 const Home = () => {
   const [spesialMenu, setSpesialMenu] = useState([]);
   const [carouselItems, setCarouselItems] = useState([]);
+  
 
   useEffect(() => {
     window.scrollTo(0, 0);

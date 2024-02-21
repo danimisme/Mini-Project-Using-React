@@ -32,3 +32,14 @@ export const getOrderMethod = (calllback) => {
       console.log(err);
     });
 };
+
+export const getMenuItem = (calllback) => {
+  axios
+    .get("./src/data/menu.JSON")
+    .then((res) => {
+      calllback(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
