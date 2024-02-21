@@ -70,14 +70,6 @@ const MenuContainer = () => {
       </div>
 
       <div className="row justify-content-start mt-5">
-        {/* {filteredMenu.length !== 0 ? (
-          <h3 className="lead mb-3">
-            Wah ada {filteredMenu.length} menu yang cocok nih !
-          </h3>
-        ) : (
-          <h3 className="lead">Maaf sepertinya belum ada menu yang cocok :(</h3>
-        )} */}
-
         <p
           className="lead mb-3 fw-semibold"
           data-aos="fade-up"
@@ -91,6 +83,7 @@ const MenuContainer = () => {
           <CardMenu
             key={item.id}
             title={item.title}
+            category={item.category}
             imageUrl={item.imageUrl}
             price={item.price}
             duration={(i % 3) * 300}

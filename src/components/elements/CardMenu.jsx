@@ -1,4 +1,4 @@
-const CardMenu = ({ title, imageUrl, price, duration }) => {
+const CardMenu = ({ title, category, imageUrl, price, duration }) => {
   return (
     <div
       className="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto"
@@ -20,6 +20,9 @@ const CardMenu = ({ title, imageUrl, price, duration }) => {
           <div className="col-md-6 px-2 py-1">
             <div className="card-body d-flex flex-column justify-content-between h-100">
               <h5 className="card-title">{title}</h5>
+              <p className="card-text text-muted">
+                Kategori : <span> {category} </span>
+              </p>
               <p>
                 {price.toLocaleString("id-ID", {
                   style: "currency",
