@@ -44,9 +44,9 @@ const Navbar = ({ active }) => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mt-2 fs-md-5">
               <NavList link="/" text="Beranda" active={active} />
-              <NavList link="about.html" text="Tentang Kami" active={active} />
-              <NavList link="menu.html" text="Menu" active={active} />
-              <NavList link="contact.html" text="Kontak Kami" active={active} />
+              <NavList link="/about" text="Tentang Kami" active={active} />
+              <NavList link="/menu" text="Menu" active={active} />
+              <NavList link="/contact" text="Kontak Kami" active={active} />
               <li className="nav-item mx-3">
                 <a
                   className="btn"
