@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import CardMenu from "../Elements/CardMenu";
 import { getMenuItem } from "../../services/getData";
 import Animation from "../../../aos";
+import Checkbox from "../Elements/CheckBox";
 
 const MenuContainer = () => {
   const [menu, setMenu] = useState([]);
   const [filteredMenu, setFilteredMenu] = useState([]);
   const [checkboxValues, setCheckboxValues] = useState({
-    espersso: true,
+    espresso: true,
     latte: true,
     donut: true,
   });
@@ -19,7 +20,7 @@ const MenuContainer = () => {
 
   useEffect(() => {
     const filtered = menu.filter((item) => {
-      if (checkboxValues.espersso && item.category === "espresso") {
+      if (checkboxValues.espresso && item.category === "espresso") {
         return true;
       }
       if (checkboxValues.latte && item.category === "latte") {
@@ -41,53 +42,51 @@ const MenuContainer = () => {
     }));
   };
 
-  console.log(filteredMenu);
   return (
     <div className="container-lg mt-3 mb-5">
-      <h1 className="mb-5 menu_title_1">
-        <span className="border-brown">Spesial </span> Untuk Kamu
+      <h1 className="mb-3">
+        <span className="border-brown">Spesial</span> Untuk Kamu
       </h1>
-      {/* Checkbox */}
-      <div className="form-check form-switch fs-2">
-        <input
-          className="form-check-input "
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckDefault"
-          checked={checkboxValues.espersso}
-          onChange={() => handleCheckboxChange("espersso")}
+
+      <div className="checkbox-container">
+        <Checkbox
+          name="espresso"
+          label="Espresso"
+          handleCheckboxChange={handleCheckboxChange}
+          checkboxValues={checkboxValues}
         />
-        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
-          Espresso
-        </label>
-      </div>
-      <div className="form-check form-switch fs-2">
-        <input
-          className="form-check-input "
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckChecked"
-          checked={checkboxValues.latte}
-          onChange={() => handleCheckboxChange("latte")}
+        <Checkbox
+          name="latte"
+          label="Latte"
+          handleCheckboxChange={handleCheckboxChange}
+          checkboxValues={checkboxValues}
         />
-        <label className="form-check-label" htmlFor="flexSwitchCheckChecked">
-          Latte
-        </label>
-      </div>
-      <div className="form-check form-switch fs-2">
-        <input
-          className="form-check-input "
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckChecked"
-          checked={checkboxValues.donut}
-          onChange={() => handleCheckboxChange("donut")}
+        <Checkbox
+          name="donut"
+          label="Donut"
+          handleCheckboxChange={handleCheckboxChange}
+          checkboxValues={checkboxValues}
         />
-        <label className="form-check-label" htmlFor="flexSwitchCheckChecked">
-          Donut
-        </label>
       </div>
-      <div className="row justify-content-start">
+
+      <div className="row justify-content-start mt-5">
+        {/* {filteredMenu.length !== 0 ? (
+          <h3 className="lead mb-3">
+            Wah ada {filteredMenu.length} menu yang cocok nih !
+          </h3>
+        ) : (
+          <h3 className="lead">Maaf sepertinya belum ada menu yang cocok :(</h3>
+        )} */}
+
+        <p
+          className="lead mb-3 fw-semibold"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          {filteredMenu.length !== 0
+            ? "Wah ada " + filteredMenu.length + " menu yang cocok nih !"
+            : "Maaf sepertinya belum ada menu yang cocok :("}
+        </p>
         {filteredMenu.map((item, i) => (
           <CardMenu
             key={item.id}

@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const [spesialMenu, setSpesialMenu] = useState([]);
   const [carouselItems, setCarouselItems] = useState([]);
+  
 
   useEffect(() => {
     getSpecialMenu((data) => setSpesialMenu(data));
