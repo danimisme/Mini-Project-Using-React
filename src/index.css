@@ -87,6 +87,11 @@ body {
   text-shadow: 5px 5px 10px #000000;
 }
 
+.header-right {
+  flex-direction: row-reverse !important;
+  gap: 20px;
+}
+
 .content-left { 
   display: flex;
   flex-direction: row-reverse;
