@@ -1,8 +1,13 @@
 import Modals from "../components/Elements/Modals";
 import Navbar from "../components/Fragments/Navbar";
 import Header from "../components/Fragments/Header";
+import BreadCrumb from "../components/Elements/BreadCrumb";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Navbar />
@@ -13,6 +18,7 @@ const Contact = () => {
       yang menyenangkan."
         imageUrl="images/barista-vector.jpg"
       />
+      <BreadCrumb current="Kontak Kami" />
       <Modals />
     </>
   );
