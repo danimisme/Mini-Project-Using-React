@@ -6,12 +6,10 @@ import Footer from "../components/Fragments/Footer";
 import FooterContent from "../components/Fragments/FooterContent";
 import { getSpecialMenu, getCarouselItems } from "../services/getData";
 import { useEffect, useState } from "react";
-import Modals from "../components/Elements/Modals";
 
 const Home = () => {
   const [spesialMenu, setSpesialMenu] = useState([]);
   const [carouselItems, setCarouselItems] = useState([]);
-  
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,7 +21,11 @@ const Home = () => {
     <>
       <Navbar active="Beranda" />
       <Carousel carouselItems={carouselItems} />
-      <CardSection title="Spesial untuk anda" data={spesialMenu} />
+      <CardSection
+        title="Spesial untuk anda"
+        data={spesialMenu}
+        action="/menu"
+      />
       <Content
         variant="content-right"
         title="Rasa Kopi yang Memukau"
@@ -33,7 +35,6 @@ const Home = () => {
               kreativitas menyatu dalam setiap tegukan yang diciptakannya."
       />
 
-      <Modals />
       <fiturModals />
       <FooterContent />
       <Footer />

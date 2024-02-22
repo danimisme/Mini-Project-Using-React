@@ -1,8 +1,9 @@
 import Animation from "../../../aos";
 import { useEffect } from "react";
 import Card from "../Elements/Card";
+import { Link } from "react-router-dom";
 
-const CardSection = ({ data, title }) => {
+const CardSection = ({ data, title, action }) => {
   useEffect(() => {
     Animation();
   }, []);
@@ -21,16 +22,18 @@ const CardSection = ({ data, title }) => {
           />
         ))}
       </div>
-      <div className="d-flex justify-content-lg-end justify-content-center">
-        <a
-          href="menu.html"
-          className="btn btn-dark mt-3 fs-5 button_menu"
-          data-aos="fade-left"
-          data-aos-duration="2000"
-        >
-          Lihat Menu <i className="bi bi-arrow-right"></i>
-        </a>
-      </div>
+      {action && (
+        <div className="d-flex justify-content-lg-end justify-content-center">
+          <Link
+            to={action}
+            className="btn btn-dark mt-3 fs-5 "
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            Lihat Menu <i className="bi bi-arrow-right"></i>
+          </Link>
+        </div>
+      )}
     </div>
   );
 };
