@@ -60,12 +60,7 @@ const Navbar = ({ active }) => {
               <NavList link="/menu" text="Menu" active={active} />
               <NavList link="/contact" text="Kontak Kami" active={active} />
               <li className="nav-item mx-3">
-                <a
-                  className="btn"
-                  // data-bs-toggle="modal"
-                  // data-bs-target="#exampleModal"
-                  onClick={handleClick}
-                >
+                <a className="btn" onClick={handleClick}>
                   <i className="bi bi-cart"></i> Order
                 </a>
               </li>
