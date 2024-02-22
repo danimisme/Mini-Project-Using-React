@@ -1,7 +1,19 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import NavList from "../Elements/NavList";
+import Swal from "sweetalert2";
+import "sweetalert2/src/sweetalert2.scss";
 const Navbar = ({ active }) => {
   const [navStyle, setNavStyle] = useState("");
+
+  const handleClick = () => {
+    Swal.fire({
+      title: "Maaf !",
+      text: "Maaf Saat ini layanan order online dalam perbaikan. Mohon coba beberapa saat lagi. Terimakasih !",
+      icon: "warning",
+      confirmButtonText: "Tutup",
+      confirmButtonColor: "#74351c",
+    });
+  };
 
   window.addEventListener("scroll", () => {
     if (window.scrollY >= 100 && window.scrollY < 500) {
@@ -50,8 +62,9 @@ const Navbar = ({ active }) => {
               <li className="nav-item mx-3">
                 <a
                   className="btn"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  // data-bs-toggle="modal"
+                  // data-bs-target="#exampleModal"
+                  onClick={handleClick}
                 >
                   <i className="bi bi-cart"></i> Order
                 </a>
