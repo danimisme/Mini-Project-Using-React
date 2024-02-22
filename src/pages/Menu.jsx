@@ -17,7 +17,7 @@ const Menu = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar active="Menu" />
       <Header
         title="Pusing ? "
         subTitle="Diminum dulu Kopinya !"
