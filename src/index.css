@@ -120,7 +120,21 @@ body {
     box-shadow: 0 0 5px #74351c;
   }
 }
+.toastProgress {
+  background: #74351c !important;
+}
+.toastIcon {
+  color: #74351c !important;
+}
 
+div#MyCustomToastId .Toastify__toast-icon {
+  width: 60px;
+  background: #00BF91;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bg-image {
   background-image: url("../images/background.jpg");
   background-size: cover;

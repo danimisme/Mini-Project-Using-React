@@ -3,6 +3,8 @@ import CardMenu from "../Elements/CardMenu";
 import { getMenuItem } from "../../services/getData";
 import Animation from "../../../aos";
 import Checkbox from "../Elements/CheckBox";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const MenuContainer = () => {
   const [menu, setMenu] = useState([]);
@@ -40,6 +42,7 @@ const MenuContainer = () => {
       ...prevValues,
       [checkboxName]: !prevValues[checkboxName],
     }));
+    toast(`Ada ${filteredMenu.length} menu yang cocok nih!`);
   };
 
   return (
@@ -47,7 +50,18 @@ const MenuContainer = () => {
       <h1 className="mb-3">
         <span className="border-brown">Spesial</span> Untuk Kamu
       </h1>
-
+      <ToastContainer
+        position="bottom-center"
+        autoClose={2000}
+        progressClassName="toastProgress"
+        iconClassName="toastIcon"
+        toastStyle={{
+          background: "#fff",
+          color: "#74351c",
+          boxShadow: "0 0 10px #74351c",
+          borderRadius: "10px",
+        }}
+      />
       <div className="checkbox-container">
         <Checkbox
           name="espresso"
@@ -70,15 +84,6 @@ const MenuContainer = () => {
       </div>
 
       <div className="row justify-content-start mt-5">
-        <p
-          className="lead mb-3 fw-semibold"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          {filteredMenu.length !== 0
-            ? "Wah ada " + filteredMenu.length + " menu yang cocok nih !"
-            : "Maaf sepertinya belum ada menu yang cocok :("}
-        </p>
         {filteredMenu.map((item, i) => (
           <CardMenu
             key={item.id}
