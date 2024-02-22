@@ -5,7 +5,6 @@ import Navbar from "../components/Fragments/Navbar";
 import { getOrderMethod } from "../services/getData";
 import { useEffect, useState } from "react";
 import Footer from "../components/Fragments/Footer";
-import Modals from "../components/Elements/Modals";
 import BreadCrumb from "../components/Elements/BreadCrumb";
 const Menu = () => {
   const [orderMethod, setOrderMethod] = useState([]);
@@ -27,7 +26,6 @@ const Menu = () => {
       <BreadCrumb current="Menu" />
       <CardSection title="Yuk Order !" data={orderMethod} />
       <MenuContainer />
-      <Modals />
       <Footer />
     </>
   );

@@ -1,4 +1,3 @@
-import Modals from "../components/Elements/Modals";
 import Navbar from "../components/Fragments/Navbar";
 import Header from "../components/Fragments/Header";
 import BreadCrumb from "../components/Elements/BreadCrumb";
@@ -33,7 +32,6 @@ const Contact = () => {
         background={false}
       />
       <Form />
-      <Modals />
       <Footer />
     </>
   );
