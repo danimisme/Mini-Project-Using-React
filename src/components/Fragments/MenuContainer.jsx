@@ -37,12 +37,16 @@ const MenuContainer = () => {
     setFilteredMenu(filtered);
   }, [checkboxValues, menu]);
 
+  useEffect(() => {
+    filteredMenu.length > 0 &&
+      toast(`Ada ${filteredMenu.length} menu yang cocok nih!`);
+  }, [filteredMenu]);
+
   const handleCheckboxChange = (checkboxName) => {
     setCheckboxValues((prevValues) => ({
       ...prevValues,
       [checkboxName]: !prevValues[checkboxName],
     }));
-    toast(`Ada ${filteredMenu.length} menu yang cocok nih!`);
   };
 
   return (
