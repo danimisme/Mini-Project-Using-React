@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getSpecialMenu = (calllback) => {
   axios
-    .get("./src/data/specialMenu.JSON")
+    .get("./data/specialMenu.JSON")
     .then((res) => {
       calllback(res.data);
     })
@@ -13,7 +13,7 @@ export const getSpecialMenu = (calllback) => {
 
 export const getCarouselItems = (calllback) => {
   axios
-    .get("../src/data/carouselData.JSON")
+    .get("./data/carouselData.JSON")
     .then((res) => {
       calllback(res.data);
     })
@@ -24,7 +24,7 @@ export const getCarouselItems = (calllback) => {
 
 export const getOrderMethod = (calllback) => {
   axios
-    .get("./src/data/orderMethod.JSON")
+    .get("./data/orderMethod.JSON")
     .then((res) => {
       calllback(res.data);
     })
@@ -35,7 +35,7 @@ export const getOrderMethod = (calllback) => {
 
 export const getMenuItem = (calllback) => {
   axios
-    .get("./src/data/menu.JSON")
+    .get("./data/menu.JSON")
     .then((res) => {
       calllback(res.data);
     })
