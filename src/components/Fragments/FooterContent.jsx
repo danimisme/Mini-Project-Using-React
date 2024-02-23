@@ -10,7 +10,7 @@ const FooterContent = () => {
               data-aos="fade-down"
             >
               <img
-                src="Logo/Logo-transparent-2.png"
+                src="./Logo/Logo-transparent-2.png"
                 alt="logo"
                 style={{ height: "65px" }}
               />
@@ -44,7 +44,7 @@ const FooterContent = () => {
           </div>
           <div className="col-lg-5 offset-lg-1">
             <img
-              src="images/diminum.png"
+              src="./images/diminum.png"
               alt="barista-holding-glass"
               className="img-fluid rounded-3 image_content_2 p-5"
               data-aos="zoom-in"
