@@ -20,7 +20,7 @@ const Menu = () => {
       <Header
         title="Pusing ? "
         subTitle="Diminum dulu Kopinya !"
-        imageUrl="images/line-art.jpeg"
+        imageUrl="./images/line-art.jpeg"
         caption="Dibuat dari Biji Kopi Pilihan Biji Kopi Fresh Dipanggang dan Digiling Langsung"
       />
       <BreadCrumb current="Menu" />

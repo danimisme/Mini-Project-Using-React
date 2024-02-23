@@ -29,7 +29,7 @@ const CardMenu = ({ title, category, imageUrl, price, duration }) => {
                   currency: "IDR",
                 })}
               </p>
-              <a className="btn btn-outline-dark fw-bold text-brown w-70 fs-6 liveToastBtn">
+              <a className="btn btn-outline-dark fw-bold text-brown w-70 fs-6">
                 <i className="bi bi-plus-circle"></i> Pesan
               </a>
             </div>

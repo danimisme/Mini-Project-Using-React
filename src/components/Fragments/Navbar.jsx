@@ -34,7 +34,7 @@ const Navbar = ({ active }) => {
           href="#"
         >
           <img
-            src="Logo/Logo-transparent-2.png"
+            src="./Logo/Logo-transparent-2.png"
             alt="logo"
             style={{ height: "45px" }}
           />

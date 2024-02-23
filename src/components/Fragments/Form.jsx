@@ -53,8 +53,8 @@ const Form = () => {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-dark px-5">
-                Kirim
+              <button type="submit" className="btn btn-dark px-4">
+                Kirim <i className="bi bi-send"></i>
               </button>
             </form>
           </div>

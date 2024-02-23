@@ -18,13 +18,13 @@ const Contact = () => {
         title="Kepuasan Anda Adalah Segalanya!"
         caption="Kami mengutamakan kenyamanan pelanggan. Rasakan pengalaman kopi
       yang menyenangkan."
-        imageUrl="images/barista-vector.jpg"
+        imageUrl="./images/barista-vector.jpg"
       />
       <BreadCrumb current="Kontak Kami" />
       <Content
         variant="content-right"
         title="Ada Yang Ingin Anda Sampaikan ?"
-        imageUrl="images/barista-customer-crop.jpg"
+        imageUrl="./images/barista-customer-crop.jpg"
         description="Tulis pesan anda untuk kami, kami akan mendengarkan dengan
       sepenuh hati. kami menerima segala bentuk saran dan kritik yang
       diberikan kepada kami. Karena bagi kami kualitas rasa dan
