@@ -13,7 +13,7 @@ export const getSpecialMenu = (calllback) => {
 
 export const getCarouselItems = (calllback) => {
   axios
-    .get("./src/data/carouselData.JSON")
+    .get("../src/data/carouselData.JSON")
     .then((res) => {
       calllback(res.data);
     })
