@@ -1,168 +1,168 @@
 [
   {
     "id": 1,
-    "imageUrl": "menu-images/americano.jpg",
+    "imageUrl": "./menu-images/americano.jpg",
     "title": "Americano",
     "price": 27000,
     "category": "espresso"
   },
   {
     "id": 2,
-    "imageUrl": "menu-images/Beetroot.jpg",
+    "imageUrl": "./menu-images/Beetroot.jpg",
     "title": "Beetroot Soy Latte",
     "price": 33000,
     "category": "latte"
   },
   {
     "id": 3,
-    "imageUrl": "menu-images/caramell-donuts.jpg",
+    "imageUrl": "./menu-images/caramell-donuts.jpg",
     "title": "Caramel Donut",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 4,
-    "imageUrl": "menu-images/caramel.jpg",
+    "imageUrl": "./menu-images/caramel.jpg",
     "title": "Caramel Latte",
     "price": 34000,
     "category": "latte"
   },
   {
     "id": 5,
-    "imageUrl": "menu-images/almond-donut.jpg",
+    "imageUrl": "./menu-images/almond-donut.jpg",
     "title": "Choco Almond Donut",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 6,
-    "imageUrl": "menu-images/chocolate.jpg",
+    "imageUrl": "./menu-images/chocolate.jpg",
     "title": "Chocolate Latte",
     "price": 36000,
     "category": "latte"
   },
   {
     "id": 7,
-    "imageUrl": "menu-images/cortado.jpg",
+    "imageUrl": "./menu-images/cortado.jpg",
     "title": "Cortado",
     "price": 30000,
     "category": "espresso"
   },
   {
     "id": 8,
-    "imageUrl": "menu-images/donat-coklat.jpg",
+    "imageUrl": "./menu-images/donat-coklat.jpg",
     "title": "Donat Coklat",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 9,
-    "imageUrl": "menu-images/cheese-donuts.jpg",
+    "imageUrl": "./menu-images/cheese-donuts.jpg",
     "title": "Donat Keju",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 10,
-    "imageUrl": "menu-images/donat-stawberry.jpg",
+    "imageUrl": "./menu-images/donat-stawberry.jpg",
     "title": "Donat Strawberry",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 11,
-    "imageUrl": "menu-images/espresso1.jpg",
+    "imageUrl": "./menu-images/espresso1.jpg",
     "title": "Double Shot Espresso",
     "price": 30000,
     "category": "espresso"
   },
   {
     "id": 12,
-    "imageUrl": "menu-images/conpana.jpg",
+    "imageUrl": "./menu-images/conpana.jpg",
     "title": "Espresso Con Panna",
     "price": 34000,
     "category": "espresso"
   },
   {
     "id": 13,
-    "imageUrl": "menu-images/fredo.jpg",
+    "imageUrl": "./menu-images/fredo.jpg",
     "title": "Espresso Freddo",
     "price": 34000,
     "category": "espresso"
   },
   {
     "id": 14,
-    "imageUrl": "menu-images/hazelnut-latte.jpg",
+    "imageUrl": "./menu-images/hazelnut-latte.jpg",
     "title": "Hazelnut Latte",
     "price": 36000,
     "category": "latte"
   },
   {
     "id": 15,
-    "imageUrl": "menu-images/iced-latte.jpg",
+    "imageUrl": "./menu-images/iced-latte.jpg",
     "title": "Iced Latte",
     "price": 35000,
     "category": "latte"
   },
   {
     "id": 16,
-    "imageUrl": "menu-images/latte.jpg",
+    "imageUrl": "./menu-images/latte.jpg",
     "title": "Latte",
     "price": 31000,
     "category": "latte"
   },
   {
     "id": 17,
-    "imageUrl": "menu-images/macchiato.jpg",
+    "imageUrl": "./menu-images/macchiato.jpg",
     "title": "Macchiato",
     "price": 33000,
     "category": "espresso"
   },
   {
     "id": 18,
-    "imageUrl": "menu-images/matcha-donut.jpg",
+    "imageUrl": "./menu-images/matcha-donut.jpg",
     "title": "Matcha Donut",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 19,
-    "imageUrl": "menu-images/macha.jpg",
+    "imageUrl": "./menu-images/macha.jpg",
     "title": "Matcha Latte",
     "price": 36000,
     "category": "latte"
   },
   {
     "id": 20,
-    "imageUrl": "menu-images/mocha.jpg",
+    "imageUrl": "./menu-images/mocha.jpg",
     "title": "Mocha Latte",
     "price": 33000,
     "category": "latte"
   },
   {
     "id": 21,
-    "imageUrl": "menu-images/purple-donust.jpg",
+    "imageUrl": "./menu-images/purple-donust.jpg",
     "title": "Purple Donut",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 22,
-    "imageUrl": "menu-images/red-donut.jpg",
+    "imageUrl": "./menu-images/red-donut.jpg",
     "title": "Red Velvet Donut",
     "price": 15000,
     "category": "donut"
   },
   {
     "id": 23,
-    "imageUrl": "menu-images/espresso.jpg",
+    "imageUrl": "./menu-images/espresso.jpg",
     "title": "Single Shot Espresso",
     "price": 25000,
     "category": "espresso"
   },
   {
     "id": 24,
-    "imageUrl": "menu-images/vanila-latte.jpg",
+    "imageUrl": "./menu-images/vanila-latte.jpg",
     "title": "Vanila Latte",
     "price": 33000,
     "category": "latte"
