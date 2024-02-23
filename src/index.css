@@ -6,7 +6,15 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;}
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-toggler {
+  background-color: #aa4d29;
+}
+
+
 .navbar {
   background-color: transparent;
   opacity: 0.9;

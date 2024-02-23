@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import InputForm from "../Elements/Input";
+import Animation from "../../../aos";
 
 const Form = () => {
   const handleSubmit = (event) => {
@@ -10,12 +11,16 @@ const Form = () => {
     toast.success(`Halo ${name}, Terima Kasih Telah Menghubungi Kami`);
     console.log(event.target);
   };
+
+  useEffect(() => {
+    Animation();
+  }, []);
   return (
     <>
       <ToastContainer position="top-center" />
       <div className="container-lg my-5">
         <div className="row">
-          <div className="col-lg-6 col-md-8 col-10 mx-auto ">
+          <div className="col-lg-6 col-md-8 col-10 mx-auto " data-aos="fade-up">
             <h1 className="fw-bold text-md-center">Hubungi Kami</h1>
             <form id="inputMessage" onSubmit={handleSubmit}>
               <InputForm
