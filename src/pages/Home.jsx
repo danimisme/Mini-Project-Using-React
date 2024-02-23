@@ -35,7 +35,6 @@ const Home = () => {
               kreativitas menyatu dalam setiap tegukan yang diciptakannya."
       />
 
-      <fiturModals />
       <FooterContent />
       <Footer />
     </>
